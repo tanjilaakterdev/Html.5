@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1>Student Registration Form</h1>
+    <h2>Fill in this form to register</h2>
+</div>
+<div>
+   <form action="form.html">
+    <div class="big">
+    <input type="text" name="" id="Name" placeholder="Enter your Name">
+    <br>
+    <input type="text" name="" id="Father" placeholder="Enter your Father's Name">
+    <br>
+    <input type="text" name="" id="Mother" placeholder="Enter Your Mother's Name">
+    <br>
+    <label for="bdaymonth">Birthday (month and year):</label>
+    <input type="month" id="bdaymonth" name="bdaymonth">
+    <br>
+    <input type="text" name="" id="address" placeholder="street  -House  -Road">
+    <br>
+    <input type="text" name="" id="Country" placeholder="Enter Your Nationality"/>
+    <br>
+    <input type="text" name="" id="email" placeholder="Sample@example.com" required />
+    <br>
+    <input type="text" name="" id="Phone" placeholder="018********" required/>
+    <br>
+</div>
+<div class="box">
+    <strong>GENDER :</strong>
+    <input type="checkbox" name="" id="Male" />
+    <label for="Male">MALE</label><br>
+    <input type="checkbox" name="" id="Female" />
+    <label for="Female">FEMALE</label>
+    <input type="checkbox" name="" id="Other" />
+    <label for="Other">OTHER</label>
+</div>
+    <br>
+    <div class="content">
+    <strong>RELIGION :</strong>
+    <input type="radio" name="muslim" id="Muslim" />
+    <label for="Muslim">MUSLIM</label>
+    <input type="radio" name="muslim" id="Non-Muslim" />
+    <label for="Non-Muslim">NON-MUSLIM</label>
+</div>
+    <br>
+    <div class="container">
+    <strong>BLOOD GROUP :</strong>
+    <select name="Blood" id="Blood">
+        <option value="A+">A+</option>
+        <option value="B+">B+</option>
+        <option value="A-">A-</option>
+    </select>
+</div>
+    <br>
+    <div class="custom">
+    <strong>COURSE :</strong>
+    <select name="course" id="course">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JAVA">JAVA SCRIPT</option>
+    </select>
+</div>
+    <br>
+    <input type="submit" value="Register">
+   </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(241, 241, 234, 0.557);
+}
+body {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+div {
+    text-align: center;
+}
+div h1 {
+    font-size: 23px;
+    color: rgb(255, 145, 0);
+}
+div h2 {
+    font-size: 18px;
+    color: rgba(165, 155, 42, 0.932);
+}
+.big {
+display: flex; flex-direction: column;
+padding: 0 80px;
+width: 80%;
+color: brown;
+}
+.box {
+    display: flex; flex-direction: row;
+    padding: 0 80px;
+}
+.content {
+    display: flex; flex-direction: row;
+    padding: 0 80px;
+}
+.container {
+    display: flex; flex-direction: row;
+    padding: 0 80px;
+}
+.custom {
+    display: flex; flex-direction: row;
+    padding: 0 80px;
+}
